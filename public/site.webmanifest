@@ -1,0 +1,16 @@
+{
+  "name": "Stavya Srinath — Robotics Engineer & Student Leader",
+  "short_name": "Stavya Srinath",
+  "description": "Stavya Srinath is a student robotics engineer focused on electrical systems, autonomous hardware, technical leadership, and STEM education.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f14",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

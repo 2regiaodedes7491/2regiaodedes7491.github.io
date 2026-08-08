@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 
 export async function GET() {
-  const file = await readFile(join(process.cwd(), "public", "resume.pdf"));
+  const file = await readFile(join(process.cwd(), "public", "assets", "resume.pdf"));
   return new Response(file, {
     headers: {
       "Content-Type": "application/pdf",

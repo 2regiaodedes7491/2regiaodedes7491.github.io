@@ -44,7 +44,7 @@ export function Hero() {
               Explore work
             </a>
             <a
-              href="/resume.pdf"
+              href="/assets/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-6 py-3 text-sm font-medium transition-all hover:bg-accent hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"

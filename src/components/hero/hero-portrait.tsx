@@ -9,7 +9,7 @@ export function HeroPortrait({ className }: HeroPortraitProps) {
     <div className={className}>
       <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border bg-surface shadow-2xl shadow-black/10">
         <Image
-          src="/hero-photo.jpg"
+          src="/assets/hero-photo.jpg"
           alt="Portrait of Stavya Srinath"
           fill
           priority

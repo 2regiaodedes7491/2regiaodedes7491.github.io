@@ -11,7 +11,7 @@ export const profile: Profile = {
     { label: "GitHub", href: "https://github.com/stavya-srinath", type: "github" },
     { label: "LinkedIn", href: "https://linkedin.com/in/stavya-srinath", type: "linkedin" },
     { label: "Email", href: "mailto:nrsspv@gmail.com", type: "email" },
-    { label: "Résumé", href: "/resume.pdf", type: "website" },
+    { label: "Résumé", href: "/assets/resume.pdf", type: "website" },
   ],
 };
 

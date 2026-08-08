@@ -1,6 +1,9 @@
 import { ImageResponse } from "next/og";
+import { siteUrl } from "@/lib/site-url";
 
 export const runtime = "nodejs";
+
+export const alt = "Stavya Srinath — Robotics Engineer & Student Leader";
 
 export default function OpenGraphImage() {
   return new ImageResponse(
@@ -108,7 +111,7 @@ export default function OpenGraphImage() {
             color: "rgba(255,255,255,0.5)",
           }}
         >
-          stavya-web-portfolio.vercel.app
+          {siteUrl.replace(/^https?:\/\//, "")}
         </div>
       </div>
     ),
